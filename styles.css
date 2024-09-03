@@ -22,6 +22,9 @@ body {
 
 .cell {
     flex: 1;
-    border: 1px solid black; 
+}
+
+.cellHover {
+    background-color: black;
 }
 
