@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    border: 1px solid black; 
+}
+
