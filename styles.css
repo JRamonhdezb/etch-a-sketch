@@ -3,8 +3,10 @@ body {
     margin: 0;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 32px;
 }
 
 #container {
